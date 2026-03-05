@@ -8,7 +8,7 @@
 
 bool deveContinuar = true;
 
-while (deveContinuar == true)
+while (deveContinuar)
 {
   Console.Clear();
 
@@ -55,8 +55,6 @@ while (deveContinuar == true)
     continue;
   }
 
-  // Lógica das Operações de Cálculo
-
   Console.Write("Digite o primeiro número: ");
   string? strPrimeiroNumero = Console.ReadLine();
 
@@ -86,7 +84,7 @@ while (deveContinuar == true)
 
   decimal resultado;
 
-  switch (operacaoSelecionada) // operador do switch
+  switch (operacaoSelecionada)
   {
     case "1":
       resultado = primeiroNumero + segundoNumero;
