@@ -1,6 +1,8 @@
 # Calculadora 2026
 
-![](./.docs/calculadora.gif)
+<p align="center">
+  <img src="./.docs/calculadora.gif" />
+</p>
 
 ## Introdução
 
